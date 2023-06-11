@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "southern-range-309813-tfstate"
     prefix = "env/dev"
   }
 }
